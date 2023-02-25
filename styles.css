@@ -1,0 +1,58 @@
+.encuadre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro1{
+    padding: 70px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    background-color: rgb(44, 11, 77);
+    color: whitesmoke;
+    font-family: Arial;
+}
+
+.cuadro2:before {
+	content:'';
+	position: absolute;
+        top: 200px;
+	bottom:10px;
+	left: 709px;
+	right: 100px;
+	background-color: rgba(80, 14, 110, 0.6);
+}
+.cuadro2{
+    padding: 0px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight:bolder;
+}
+
+.parrafo{
+    font-size: 15px;
+}
+
+table{
+    text-align: left;
+    color: whitesmoke;
+}
+
+th,td{
+    width: 1000px;
+}
+
+th{
+    font-size: 20px;
+}
+
+td{
+    font-size: 13px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
